@@ -24,4 +24,4 @@ RUN apt-get install -y wget
 
 RUN wget -nv http://www.mathworks.com/supportfiles/downloads/R2016a/deployment_files/R2016a/installers/glnxa64/MCR_R2016a_glnxa64_installer.zip
 
-RUN unzip MCR_2016a_glnxa64_installer.zip
+RUN unzip MCR_R2016a_glnxa64_installer.zip
