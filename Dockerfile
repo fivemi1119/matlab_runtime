@@ -1,8 +1,8 @@
 FROM ubuntu:trusty
 
-MAINTAINER Xin Wen <nclxwen@gmail.com>
+MAINTAINER yuan liu <2301794925@qq.com>
 
-#anzhuang python d xiangguan yilai
+#安装 python 的相关依赖
 
 RUN apt-get update && apt-get install -y python-dev python-setuptools python-numpy python-scipy zlib1g-dev python-matplotlib python-nose
 
@@ -14,7 +14,7 @@ RUN mkdir /mcr-install
 
 WORKDIR /mcr-install
 
-#xiazai matlab runtime
+#下载 matlab runtime
 
 RUN apt-get install wget
 
